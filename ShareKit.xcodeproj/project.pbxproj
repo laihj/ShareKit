@@ -13,6 +13,27 @@
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		384119D7161437B600D81857 /* SHKSinaWeibo.h in Headers */ = {isa = PBXBuildFile; fileRef = 384119D5161437B600D81857 /* SHKSinaWeibo.h */; };
+		384119D8161437B600D81857 /* SHKSinaWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 384119D6161437B600D81857 /* SHKSinaWeibo.m */; };
+		384119D9161437B600D81857 /* SHKSinaWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 384119D6161437B600D81857 /* SHKSinaWeibo.m */; };
+		384119E0161437E500D81857 /* SHKTencentWeibo.h in Headers */ = {isa = PBXBuildFile; fileRef = 384119DA161437E500D81857 /* SHKTencentWeibo.h */; };
+		384119E1161437E500D81857 /* SHKTencentWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 384119DB161437E500D81857 /* SHKTencentWeibo.m */; };
+		384119E2161437E500D81857 /* SHKTencentWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 384119DB161437E500D81857 /* SHKTencentWeibo.m */; };
+		384119E3161437E500D81857 /* TencentOAMutableURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 384119DC161437E500D81857 /* TencentOAMutableURLRequest.h */; };
+		384119E4161437E500D81857 /* TencentOAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 384119DD161437E500D81857 /* TencentOAMutableURLRequest.m */; };
+		384119E5161437E500D81857 /* TencentOAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 384119DD161437E500D81857 /* TencentOAMutableURLRequest.m */; };
+		384119E6161437E500D81857 /* TencentOAuthView.h in Headers */ = {isa = PBXBuildFile; fileRef = 384119DE161437E500D81857 /* TencentOAuthView.h */; };
+		384119E7161437E500D81857 /* TencentOAuthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 384119DF161437E500D81857 /* TencentOAuthView.m */; };
+		384119E8161437E500D81857 /* TencentOAuthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 384119DF161437E500D81857 /* TencentOAuthView.m */; };
+		384119F516143AD400D81857 /* SHKSinaWeiboV2.h in Headers */ = {isa = PBXBuildFile; fileRef = 384119EF16143AD400D81857 /* SHKSinaWeiboV2.h */; };
+		384119F616143AD400D81857 /* SHKSinaWeiboV2.m in Sources */ = {isa = PBXBuildFile; fileRef = 384119F016143AD400D81857 /* SHKSinaWeiboV2.m */; };
+		384119F716143AD400D81857 /* SHKSinaWeiboV2.m in Sources */ = {isa = PBXBuildFile; fileRef = 384119F016143AD400D81857 /* SHKSinaWeiboV2.m */; };
+		384119F816143AD400D81857 /* SHKSinaWeiboV2Form.h in Headers */ = {isa = PBXBuildFile; fileRef = 384119F116143AD400D81857 /* SHKSinaWeiboV2Form.h */; };
+		384119F916143AD400D81857 /* SHKSinaWeiboV2Form.m in Sources */ = {isa = PBXBuildFile; fileRef = 384119F216143AD400D81857 /* SHKSinaWeiboV2Form.m */; };
+		384119FA16143AD400D81857 /* SHKSinaWeiboV2Form.m in Sources */ = {isa = PBXBuildFile; fileRef = 384119F216143AD400D81857 /* SHKSinaWeiboV2Form.m */; };
+		384119FB16143AD400D81857 /* SHKSinaWeiboV2OAuthView.h in Headers */ = {isa = PBXBuildFile; fileRef = 384119F316143AD400D81857 /* SHKSinaWeiboV2OAuthView.h */; };
+		384119FC16143AD400D81857 /* SHKSinaWeiboV2OAuthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 384119F416143AD400D81857 /* SHKSinaWeiboV2OAuthView.m */; };
+		384119FD16143AD400D81857 /* SHKSinaWeiboV2OAuthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 384119F416143AD400D81857 /* SHKSinaWeiboV2OAuthView.m */; };
 		4312CF7C11CB33E200E61D7A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4312CF7B11CB33E200E61D7A /* MessageUI.framework */; };
 		43A5382811DBE480004A1712 /* example.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 43A5382611DBE480004A1712 /* example.pdf */; };
 		43A5382911DBE480004A1712 /* sanFran.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43A5382711DBE480004A1712 /* sanFran.jpg */; };
@@ -315,11 +336,7 @@
 		AC7F3BAE15EF1913008A1A4E /* ROGlobalStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7F3B8415EF1913008A1A4E /* ROGlobalStyle.m */; };
 		AC7F3BAF15EF1913008A1A4E /* ROImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7F3B8615EF1913008A1A4E /* ROImageView.m */; };
 		AC7F3BB015EF1913008A1A4E /* SHKRenRen.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7F3B8815EF1913008A1A4E /* SHKRenRen.m */; };
-		AC7F3BB815EF1A54008A1A4E /* SHKTencentWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7F3BB315EF1A54008A1A4E /* SHKTencentWeibo.m */; };
-		AC7F3BB915EF1A54008A1A4E /* TencentOAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7F3BB515EF1A54008A1A4E /* TencentOAMutableURLRequest.m */; };
-		AC7F3BBA15EF1A54008A1A4E /* TencentOAuthView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7F3BB715EF1A54008A1A4E /* TencentOAuthView.m */; };
 		AC7F3BBE15EF1AF6008A1A4E /* SHKNetEaseWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7F3BBD15EF1AF6008A1A4E /* SHKNetEaseWeibo.m */; };
-		AC7F3BC215EF1BA2008A1A4E /* SHKSinaWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7F3BC115EF1BA2008A1A4E /* SHKSinaWeibo.m */; };
 		AC7F3BC615EF1BD4008A1A4E /* SHKPlurk.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7F3BC515EF1BD4008A1A4E /* SHKPlurk.m */; };
 		C0D3077B147BDC8100E74EA3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D3077A147BDC8100E74EA3 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
@@ -350,6 +367,20 @@
 		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		384119D5161437B600D81857 /* SHKSinaWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKSinaWeibo.h; sourceTree = "<group>"; };
+		384119D6161437B600D81857 /* SHKSinaWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKSinaWeibo.m; sourceTree = "<group>"; };
+		384119DA161437E500D81857 /* SHKTencentWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKTencentWeibo.h; sourceTree = "<group>"; };
+		384119DB161437E500D81857 /* SHKTencentWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKTencentWeibo.m; sourceTree = "<group>"; };
+		384119DC161437E500D81857 /* TencentOAMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TencentOAMutableURLRequest.h; sourceTree = "<group>"; };
+		384119DD161437E500D81857 /* TencentOAMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TencentOAMutableURLRequest.m; sourceTree = "<group>"; };
+		384119DE161437E500D81857 /* TencentOAuthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TencentOAuthView.h; sourceTree = "<group>"; };
+		384119DF161437E500D81857 /* TencentOAuthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TencentOAuthView.m; sourceTree = "<group>"; };
+		384119EF16143AD400D81857 /* SHKSinaWeiboV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKSinaWeiboV2.h; sourceTree = "<group>"; };
+		384119F016143AD400D81857 /* SHKSinaWeiboV2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKSinaWeiboV2.m; sourceTree = "<group>"; };
+		384119F116143AD400D81857 /* SHKSinaWeiboV2Form.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKSinaWeiboV2Form.h; sourceTree = "<group>"; };
+		384119F216143AD400D81857 /* SHKSinaWeiboV2Form.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKSinaWeiboV2Form.m; sourceTree = "<group>"; };
+		384119F316143AD400D81857 /* SHKSinaWeiboV2OAuthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKSinaWeiboV2OAuthView.h; sourceTree = "<group>"; };
+		384119F416143AD400D81857 /* SHKSinaWeiboV2OAuthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKSinaWeiboV2OAuthView.m; sourceTree = "<group>"; };
 		3BD2BD52153431390042EB86 /* SHKCustomFormControllerLargeTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKCustomFormControllerLargeTextField.h; sourceTree = "<group>"; };
 		3BD2BD53153431390042EB86 /* SHKCustomFormControllerLargeTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKCustomFormControllerLargeTextField.m; sourceTree = "<group>"; };
 		427FBAB11592F7C90024F825 /* ENOAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENOAuthViewController.h; sourceTree = "<group>"; };
@@ -672,16 +703,8 @@
 		AC7F3B8615EF1913008A1A4E /* ROImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROImageView.m; sourceTree = "<group>"; };
 		AC7F3B8715EF1913008A1A4E /* SHKRenRen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKRenRen.h; sourceTree = "<group>"; };
 		AC7F3B8815EF1913008A1A4E /* SHKRenRen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKRenRen.m; sourceTree = "<group>"; };
-		AC7F3BB215EF1A54008A1A4E /* SHKTencentWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKTencentWeibo.h; sourceTree = "<group>"; };
-		AC7F3BB315EF1A54008A1A4E /* SHKTencentWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKTencentWeibo.m; sourceTree = "<group>"; };
-		AC7F3BB415EF1A54008A1A4E /* TencentOAMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TencentOAMutableURLRequest.h; sourceTree = "<group>"; };
-		AC7F3BB515EF1A54008A1A4E /* TencentOAMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TencentOAMutableURLRequest.m; sourceTree = "<group>"; };
-		AC7F3BB615EF1A54008A1A4E /* TencentOAuthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TencentOAuthView.h; sourceTree = "<group>"; };
-		AC7F3BB715EF1A54008A1A4E /* TencentOAuthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TencentOAuthView.m; sourceTree = "<group>"; };
 		AC7F3BBC15EF1AF6008A1A4E /* SHKNetEaseWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKNetEaseWeibo.h; sourceTree = "<group>"; };
 		AC7F3BBD15EF1AF6008A1A4E /* SHKNetEaseWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKNetEaseWeibo.m; sourceTree = "<group>"; };
-		AC7F3BC015EF1BA2008A1A4E /* SHKSinaWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKSinaWeibo.h; sourceTree = "<group>"; };
-		AC7F3BC115EF1BA2008A1A4E /* SHKSinaWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKSinaWeibo.m; sourceTree = "<group>"; };
 		AC7F3BC415EF1BD4008A1A4E /* SHKPlurk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKPlurk.h; sourceTree = "<group>"; };
 		AC7F3BC515EF1BD4008A1A4E /* SHKPlurk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKPlurk.m; sourceTree = "<group>"; };
 		B7EFCD8A14C6B966004910F1 /* SHKDiigo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKDiigo.h; sourceTree = "<group>"; };
@@ -832,6 +855,19 @@
 				7AB535EF1552E12100171BCE /* CoreFoundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		384119EE16143AD400D81857 /* Sina Weibo V2 */ = {
+			isa = PBXGroup;
+			children = (
+				384119EF16143AD400D81857 /* SHKSinaWeiboV2.h */,
+				384119F016143AD400D81857 /* SHKSinaWeiboV2.m */,
+				384119F116143AD400D81857 /* SHKSinaWeiboV2Form.h */,
+				384119F216143AD400D81857 /* SHKSinaWeiboV2Form.m */,
+				384119F316143AD400D81857 /* SHKSinaWeiboV2OAuthView.h */,
+				384119F416143AD400D81857 /* SHKSinaWeiboV2OAuthView.m */,
+			);
+			path = "Sina Weibo V2";
 			sourceTree = "<group>";
 		};
 		42EDC75A156CFBF400E3303E /* Evernote-SDK */ = {
@@ -1208,6 +1244,7 @@
 		43A536C011DBE3B9004A1712 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				384119EE16143AD400D81857 /* Sina Weibo V2 */,
 				AC7F3BC315EF1BD4008A1A4E /* Plurk */,
 				AC7F3BBF15EF1BA2008A1A4E /* Sina Weibo */,
 				AC7F3BBB15EF1AF6008A1A4E /* NetEase Weibo */,
@@ -1640,12 +1677,12 @@
 		AC7F3BB115EF1A54008A1A4E /* Tencent Weibo */ = {
 			isa = PBXGroup;
 			children = (
-				AC7F3BB215EF1A54008A1A4E /* SHKTencentWeibo.h */,
-				AC7F3BB315EF1A54008A1A4E /* SHKTencentWeibo.m */,
-				AC7F3BB415EF1A54008A1A4E /* TencentOAMutableURLRequest.h */,
-				AC7F3BB515EF1A54008A1A4E /* TencentOAMutableURLRequest.m */,
-				AC7F3BB615EF1A54008A1A4E /* TencentOAuthView.h */,
-				AC7F3BB715EF1A54008A1A4E /* TencentOAuthView.m */,
+				384119DA161437E500D81857 /* SHKTencentWeibo.h */,
+				384119DB161437E500D81857 /* SHKTencentWeibo.m */,
+				384119DC161437E500D81857 /* TencentOAMutableURLRequest.h */,
+				384119DD161437E500D81857 /* TencentOAMutableURLRequest.m */,
+				384119DE161437E500D81857 /* TencentOAuthView.h */,
+				384119DF161437E500D81857 /* TencentOAuthView.m */,
 			);
 			path = "Tencent Weibo";
 			sourceTree = "<group>";
@@ -1662,8 +1699,8 @@
 		AC7F3BBF15EF1BA2008A1A4E /* Sina Weibo */ = {
 			isa = PBXGroup;
 			children = (
-				AC7F3BC015EF1BA2008A1A4E /* SHKSinaWeibo.h */,
-				AC7F3BC115EF1BA2008A1A4E /* SHKSinaWeibo.m */,
+				384119D5161437B600D81857 /* SHKSinaWeibo.h */,
+				384119D6161437B600D81857 /* SHKSinaWeibo.m */,
 			);
 			path = "Sina Weibo";
 			sourceTree = "<group>";
@@ -1800,6 +1837,13 @@
 				7ABCDBA91577528B003BBFFD /* SHKFormFieldCellSwitch.h in Headers */,
 				7ABCDBB0157757D1003BBFFD /* SHKFormFieldCellOptionPicker.h in Headers */,
 				7A4CAA171577BEFA0010E6B3 /* SHKFormFieldCell_PrivateProperties.h in Headers */,
+				384119D7161437B600D81857 /* SHKSinaWeibo.h in Headers */,
+				384119E0161437E500D81857 /* SHKTencentWeibo.h in Headers */,
+				384119E3161437E500D81857 /* TencentOAMutableURLRequest.h in Headers */,
+				384119E6161437E500D81857 /* TencentOAuthView.h in Headers */,
+				384119F516143AD400D81857 /* SHKSinaWeiboV2.h in Headers */,
+				384119F816143AD400D81857 /* SHKSinaWeiboV2Form.h in Headers */,
+				384119FB16143AD400D81857 /* SHKSinaWeiboV2OAuthView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1996,12 +2040,15 @@
 				AC7F3BAE15EF1913008A1A4E /* ROGlobalStyle.m in Sources */,
 				AC7F3BAF15EF1913008A1A4E /* ROImageView.m in Sources */,
 				AC7F3BB015EF1913008A1A4E /* SHKRenRen.m in Sources */,
-				AC7F3BB815EF1A54008A1A4E /* SHKTencentWeibo.m in Sources */,
-				AC7F3BB915EF1A54008A1A4E /* TencentOAMutableURLRequest.m in Sources */,
-				AC7F3BBA15EF1A54008A1A4E /* TencentOAuthView.m in Sources */,
 				AC7F3BBE15EF1AF6008A1A4E /* SHKNetEaseWeibo.m in Sources */,
-				AC7F3BC215EF1BA2008A1A4E /* SHKSinaWeibo.m in Sources */,
 				AC7F3BC615EF1BD4008A1A4E /* SHKPlurk.m in Sources */,
+				384119D8161437B600D81857 /* SHKSinaWeibo.m in Sources */,
+				384119E1161437E500D81857 /* SHKTencentWeibo.m in Sources */,
+				384119E4161437E500D81857 /* TencentOAMutableURLRequest.m in Sources */,
+				384119E7161437E500D81857 /* TencentOAuthView.m in Sources */,
+				384119F616143AD400D81857 /* SHKSinaWeiboV2.m in Sources */,
+				384119F916143AD400D81857 /* SHKSinaWeiboV2Form.m in Sources */,
+				384119FC16143AD400D81857 /* SHKSinaWeiboV2OAuthView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2237,6 +2284,13 @@
 				7AB8050E15AC7A9D004FB430 /* ENCredentialStore.m in Sources */,
 				7AB8050F15AC7AAF004FB430 /* ENOAuthViewController.m in Sources */,
 				7AB8051015AC7BC9004FB430 /* GTMNSString+HTML.m in Sources */,
+				384119D9161437B600D81857 /* SHKSinaWeibo.m in Sources */,
+				384119E2161437E500D81857 /* SHKTencentWeibo.m in Sources */,
+				384119E5161437E500D81857 /* TencentOAMutableURLRequest.m in Sources */,
+				384119E8161437E500D81857 /* TencentOAuthView.m in Sources */,
+				384119F716143AD400D81857 /* SHKSinaWeiboV2.m in Sources */,
+				384119FA16143AD400D81857 /* SHKSinaWeiboV2Form.m in Sources */,
+				384119FD16143AD400D81857 /* SHKSinaWeiboV2OAuthView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

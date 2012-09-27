@@ -1,3 +1,7 @@
+# laihj
+
+根据jimney的[《为ShareKit添加Sina Weibo OAuth2.0授权和分享功能》](http://www.cocoachina.com/bbs/read.php?tid=113138)   添加对新浪微博Auth2.0的支持
+
 # 关于 ShareKit
 
 [Sharekit](https://github.com/ShareKit/ShareKit) 在社区的驱动下迎来了 2.0 版本的重生（原开发者已不再维护）。

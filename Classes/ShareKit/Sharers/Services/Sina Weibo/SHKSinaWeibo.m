@@ -83,6 +83,10 @@ static NSString *const kSHKSinaWeiboUserInfo = @"kSHKSinaWeiboUserInfo";
 	return @"新浪微博";
 }
 
++ (BOOL) canShare {
+    return NO;
+}
+
 + (BOOL)canShareURL
 {
 	return YES;

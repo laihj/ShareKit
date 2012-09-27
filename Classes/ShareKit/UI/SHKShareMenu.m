@@ -186,7 +186,7 @@
 	
 	for( NSString *sharerClassName in source)
 	{
-		class = NSClassFromString(sharerClassName);
+		class =  NSClassFromString(sharerClassName);
 		if ( [class canShare] && [class canShareType:item.shareType] )
 			[sectionData addObject:[NSDictionary dictionaryWithObjectsAndKeys:sharerClassName,@"className",[class sharerTitle],@"name",nil]];
 	}

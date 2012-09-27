@@ -29,6 +29,7 @@
 
 #import "SHKSinaWeiboV2.h"
 #import "SHKSinaWeiboV2OAuthView.h"
+#import "SHKConfiguration.h"
 #import "JSON.h"
 
 #define API_DOMAIN  @"https://api.weibo.com"
@@ -42,15 +43,15 @@ static NSString *accessTokenKey = @"access_token";
 - (id)init
 {
 	if ((self = [super init]))
-	{		
+	{
+        self.consumerKey = SHKCONFIG(sinaWeiboV2ConsumerKey);
+		self.secretKey = SHKCONFIG(sinaWeiboV2ConsumerSecret);
+ 		self.authorizeCallbackURL = [NSURL URLWithString:SHKCONFIG(sinaWeiboV2CallbackUrl)];
+		
+		// xAuth
+		self.xAuth = [SHKCONFIG(sinaWeiboV2UseXAuth) boolValue] ? YES : NO;
         // OAuth2.0
         // Note: consumer key equal to client id
-		self.consumerKey = SHKSinaWeiboV2ConsumerKey;		
-		self.secretKey = SHKSinaWeiboV2ConsumerSecret;
- 		self.authorizeCallbackURL = [NSURL URLWithString:SHKSinaWeiboV2CallbackUrl];
-		
-        // xAuth
-		self.xAuth = SHKSinaWeiboUseXAuth ? YES : NO;
 		
 		// You do not need to edit these, they are the same for everyone     
         self.authorizeURL = [NSURL URLWithString:[NSString stringWithFormat:@"%@/oauth2/authorize", API_DOMAIN]];
@@ -72,7 +73,7 @@ static NSString *accessTokenKey = @"access_token";
 
 + (NSString *)sharerTitle
 {
-	return @"新浪微博V2";
+	return @"新浪微博";
 }
 
 + (BOOL)canShareURL
@@ -112,7 +113,7 @@ static NSString *accessTokenKey = @"access_token";
 
 - (void)promptAuthorization
 {		
-    NSString* urlStr = [NSString stringWithFormat:@"%@?client_id=%@&response_type=code&redirect_uri=%@", authorizeURL, self.consumerKey, [self.authorizeCallbackURL.absoluteString URLEncodedString]];
+    NSString* urlStr = [NSString stringWithFormat:@"%@?client_id=%@&response_type=code&redirect_uri=%@&display=mobile", authorizeURL, self.consumerKey, [self.authorizeCallbackURL.absoluteString URLEncodedString]];
     NSLog(@"url str = %@", urlStr);
     NSURL *url = [NSURL URLWithString:urlStr];
     
@@ -301,7 +302,7 @@ static NSString *accessTokenKey = @"access_token";
 		[[SHKActivityIndicator currentIndicator] displayActivity:SHKLocalizedString(@"Shortening URL...")];
 	
 	self.request = [[[SHKRequest alloc] initWithURL:[NSURL URLWithString:[NSMutableString stringWithFormat:@"http://api.t.sina.com.cn/short_url/shorten.json?source=%@&url_long=%@",
-																		  SHKSinaWeiboConsumerKey,						  
+																		  SHKCONFIG(sinaWeiboV2ConsumerKey),						  
 																		  SHKEncodeURL(item.URL)
 																		  ]]
 											 params:nil
