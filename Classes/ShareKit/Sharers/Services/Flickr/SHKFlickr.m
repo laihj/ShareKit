@@ -67,7 +67,7 @@ NSString *kPutInGroupsStep = @"kPutInGroupsStep";
 
 + (BOOL)canShare
 {
-	return YES;
+	return NO;
 }
 
 + (BOOL)canAutoShare

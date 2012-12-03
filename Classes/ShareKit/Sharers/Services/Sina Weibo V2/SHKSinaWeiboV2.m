@@ -274,6 +274,7 @@ static NSString *accessTokenKey = @"access_token";
 	[rootView view];
 	
 	rootView.textView.text = [item customValueForKey:@"status"];
+    rootView.image = item.image;
 	rootView.hasAttachment = item.image != nil;
 	
 	[self pushViewController:rootView animated:NO];

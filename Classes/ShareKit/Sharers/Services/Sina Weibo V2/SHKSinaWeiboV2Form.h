@@ -35,11 +35,14 @@
 	UITextView *textView;
 	UILabel *counter;
 	BOOL hasAttachment;
+    UIImage *image;
 }
 
 @property (nonatomic, retain) id delegate;
 @property (nonatomic, retain) UITextView *textView;
 @property (nonatomic, retain) UILabel *counter;
+@property (nonatomic, retain) UIImageView *showImage;
+@property (nonatomic, retain) UIImage *image;
 @property BOOL hasAttachment;
 
 - (void)layoutCounter;

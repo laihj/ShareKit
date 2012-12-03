@@ -66,6 +66,11 @@
 	return @"Vkontakte";
 }
 
++ (BOOL)canShare
+{
+	return NO;
+}
+
 + (BOOL)canShareText
 {
 	return YES;

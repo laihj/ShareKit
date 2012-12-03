@@ -90,7 +90,7 @@ NSString *SHKLinkedInVisibilityCodeKey = @"visibility.code";
 // Subclass if you need to dynamically enable/disable the service.  (For example if it only works with specific hardware)
 + (BOOL)canShare
 {
-	return YES;
+	return NO;
 }
 
 

@@ -54,7 +54,7 @@ static NSString * const kStoredAuthPasswordKeyName = @"password";
 #pragma mark Configuration : Dynamic Enable
 
 + (BOOL)canShare{
-	return YES;
+	return NO;
 }
 
 + (BOOL)canAutoShare{

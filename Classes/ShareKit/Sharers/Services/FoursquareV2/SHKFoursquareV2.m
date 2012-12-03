@@ -87,6 +87,7 @@ static NSString *accessTokenKey = @"accessToken";
 + (BOOL)canShare
 {
     // Check if location services are enabled and for iOS 4.2 and higher test if this app is allowed to use it
+    return NO;
     return ([CLLocationManager locationServicesEnabled] &&
             (![CLLocationManager respondsToSelector:@selector(authorizationStatus)] ||
              [CLLocationManager authorizationStatus] == kCLAuthorizationStatusAuthorized || 

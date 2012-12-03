@@ -54,7 +54,7 @@ static NSString * const kInstapaperSharingURL = @"https://www.instapaper.com/api
 
 + (BOOL)canShare
 {
-	return YES;
+	return NO;
 }
 
 #pragma mark -

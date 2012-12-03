@@ -58,7 +58,7 @@
 #pragma mark -
 #pragma mark Configuration : Dynamic Enable
 
-+ (BOOL)canShare {	return YES; }
++ (BOOL)canShare {	return NO; }
 
 #pragma mark -
 #pragma mark Authentication

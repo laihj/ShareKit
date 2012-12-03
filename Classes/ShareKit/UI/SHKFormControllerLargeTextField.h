@@ -11,6 +11,7 @@
 
 @property (nonatomic, readonly, assign) id <SHKFormControllerLargeTextFieldDelegate> delegate;
 @property (nonatomic, retain) UITextView *textView;
+@property (nonatomic, retain) UIImageView *showImage;
 
 // these properties are used for counter text display only. 
 // Counter shows, only if they are set by your sharer.
@@ -21,6 +22,7 @@
 @property (nonatomic, retain) NSString *text;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil delegate:(id <SHKFormControllerLargeTextFieldDelegate>)aDelegate;
+- (UIImage*)imageByScalingAndCroppingForSize:(CGSize)targetSize image:(UIImage *) sourceImage;
 
 @end
 
